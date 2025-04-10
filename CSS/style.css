@@ -51,10 +51,12 @@ header nav ul li a:hover {
   object-fit: cover;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   .mainvisual img {
-    height: calc(100vh - 60px);
-}
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
 }
 
 /* main */
